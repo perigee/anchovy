@@ -50,7 +50,7 @@ Workflow of a particular web app with Meteor
 	```
 	and check your site on **http://myproject.meteor.com**
 	
-4. Publication with **Meteor up**
+4. Publication with **Meteor Up**
 	1. Install the Meteor up
 	
 		```
@@ -58,3 +58,7 @@ Workflow of a particular web app with Meteor
 		```	
 	
 ## Achitecture of a web app
+
+### Templates
+Template is an essential element in webapp. 
+Meteor uses [handlebars](http://handlebarsjs.com/) as its template system. 
