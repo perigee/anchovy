@@ -25,6 +25,7 @@ Workflow of a particular web app with Meteor
 
 > figure out what to do.
 
+
 1. Initialize the project
 
 	```
