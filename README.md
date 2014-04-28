@@ -38,6 +38,14 @@ Workflow of a particular web app with Meteor
 	```
 	which will create a directory called _myproject_ and some files
 2. Install the packages
+
+	1. Log your program with console.log(), the client side logging will be displayed in browser's javascript console, and the server side logging will be shown in the terminal which invokes the meteor.
+	 		 		
+	2. Mongo console (MongoDB's console)
+			
+		```
+		$ meteor mongo
+		```
 3. Launch the site, when it is running, it will dynamcially upate your modifications
 
 	```
@@ -51,12 +59,23 @@ Workflow of a particular web app with Meteor
 	```
 	and check your site on **http://myproject.meteor.com**
 	
+	
+	> PS: **Ctrl-C** to stop the console and **meteor reset** to clear the previous run information, which will also empty the MongoDB. 
+	
 4. Publication with **Meteor Up**
 	1. Install the Meteor up
 	
 		```
 		$ npm install -g mup
 		```	
+		
+	2. Remove the autopublish and insecure packages 
+		
+		```
+		$ mrt remove autopublish
+		$ mrt remove insecure
+		```
+		
 	
 ## Achitecture of a web app
 
