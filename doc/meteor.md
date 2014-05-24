@@ -69,7 +69,7 @@ Workflow of a particular web app with Meteor
 		$ npm install -g mup
 		```	
 		
-	2. Remove the autopublish and insecure packages 
+	2. Remove the **autopublish**	 and **insecure** packages 
 		
 		```
 		$ mrt remove autopublish
