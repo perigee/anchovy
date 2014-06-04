@@ -1,5 +1,15 @@
 import ConfigParser
 
+
+
+class DBconn(object):
+	"""docstring for ClassName"""
+	def __init__(self, arg):
+		super(ClassName, self).__init__()
+		self.arg = arg
+		self.is_conn = False
+
+		
 dbconnection = False
 
 
