@@ -5,7 +5,6 @@ import tornado.gen as gen
 import tornado.httpserver
 import tornado.autoreload
 
-
 import tornado.httpclient as httpclient
 import tornado.ioloop
 import tornado.web
@@ -15,7 +14,7 @@ import tornado.gen
 
 import time
 import tornado.httpserver
-import simplejson as json
+
 
 
 
@@ -52,8 +51,7 @@ class MainHandlerAsync(tornado.web.RequestHandler):
 
  
 if __name__ == "__main__":
-	#define("port", default=8888, help="run on the given port", type=int)
-	#tornado.options.parse_command_line()
+	
 	application = tornado.web.Application([
 		(r"/async", MainHandlerAsync),
 		(r"/external-api", PretendService)
